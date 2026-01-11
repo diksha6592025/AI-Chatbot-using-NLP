@@ -45,12 +45,19 @@ Pickle
 Project Structure
 
 app.py – Main chatbot application
+
 train.py – Script for training the machine learning model
+
 intents.json – Dataset containing intents, patterns, and responses
+
 model.pkl – Trained machine learning model
+
 vectorizer.pkl – Text vectorizer for NLP
+
 requirements.txt – Required Python libraries
+
 README.md – Project documentation
+
 
 Working of the Chatbot
 
@@ -63,6 +70,7 @@ Input is converted into numerical vectors
 Trained ML model predicts the intent
 
 Chatbot returns the corresponding response
+
 
 Installation and Execution
 
