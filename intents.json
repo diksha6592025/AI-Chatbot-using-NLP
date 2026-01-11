@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good evening", "hola"],
+      "responses": ["Hello! 😊", "Hi there!", "Hey! How can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "take care", "exit"],
+      "responses": ["Bye! 👋", "See you soon!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thx", "thanku", "appreciate it"],
+      "responses": ["You're welcome 😊", "No problem!", "Glad to help!"]
+    },
+    {
+      "tag": "about",
+      "patterns": ["who are you", "what is your name", "what can you do", "about you"],
+      "responses": ["I am an AI Chatbot made using NLP 🤖", "I'm a chatbot. I can answer basic questions!"]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help me", "i need help", "can you help", "support", "assist me"],
+      "responses": ["Sure! Tell me your problem.", "Yes! I am here to help you."]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["how to take admission", "admission process", "how can i apply", "apply for college"],
+      "responses": ["Admission is based on eligibility + form submission. Check college portal or office for details."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["what is fees", "fee structure", "college fees", "how much fees"],
+      "responses": ["Fees depends on course. Please check the official fee structure or tell your course name."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["what courses are available", "courses", "available branches", "programs"],
+      "responses": ["We offer multiple courses like BCA, BTech, MCA etc. Tell me your interest area."]
+    },
+    {
+      "tag": "timing",
+      "patterns": ["college timing", "when college starts", "time of college", "class timing"],
+      "responses": ["Generally college starts around 9 AM and ends around 4 PM (may vary)."]
+    }
+  ]
+}
